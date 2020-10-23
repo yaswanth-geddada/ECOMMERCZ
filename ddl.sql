@@ -1,2 +1,6 @@
-create table table3
-create table table4
+create table table3   modified by venkamma
+
+
+
+
+added by venkamma
