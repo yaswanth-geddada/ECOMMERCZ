@@ -1,8 +1,12 @@
 package com.ecz;
+
+import com.ecz.leave.LeaveCaller;
+
 /**
  * Hello world!
  *
  */
+
 public class App 
 {
     public static void main( String[] args )
@@ -15,10 +19,11 @@ public class App
 
        
 
-        SQLObjectAPI obSql = new SQLObjectAPI();
-        obSql.SQLObject();
+        // SQLObjectAPI obSql = new SQLObjectAPI();
+        // obSql.SQLObject();
         // obSql.insertProduct();
-
-
+        LeaveCaller leaveMethod = new LeaveCaller();
+        leaveMethod.leaveInfo();
+        // leaveMethod.insertLeave();
     }
 }
